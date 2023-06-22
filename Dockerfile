@@ -1,4 +1,4 @@
-FROM alpine:3.18.2
+FROM hub-mirror.c.163.com/library/alpine:3.18.2
 COPY main.sh /home/main.sh
 COPY repositories /etc/apk/repositories
 RUN apk update
